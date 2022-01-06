@@ -1,9 +1,9 @@
 # Ginkgo Basic tutorial
 
-## Structure
+## Project Structure
 
-adder : basic ginkgo tutorial
-user : struct based ginkgo tutorial
+* adder : basic ginkgo tutorial
+* user : struct based ginkgo tutorial
 
 ## Ginkgo setup your project
 
@@ -21,7 +21,7 @@ and after generate test file
 
 finally, write test cases.
 
-## For run
+## For test
 
 ```
     ginkgo 
