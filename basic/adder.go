@@ -3,8 +3,8 @@ package adder
 import "errors"
 
 var (
-	ErrInvalidSummand = errors.New("Invalid summand")
-	ErrZeroSummand = errors.New("Zero summand")
+	ErrInvalidSummand = errors.New("invalid summand")
+	ErrZeroSummand    = errors.New("zero summand")
 )
 
 func Add(x, y int) (int, error) {
@@ -17,6 +17,6 @@ func Add(x, y int) (int, error) {
 	if x < 0 || y < 0 {
 		return 0, ErrInvalidSummand
 	}
-	
+
 	return x + y, nil
 }
